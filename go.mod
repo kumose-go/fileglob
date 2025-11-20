@@ -1,4 +1,4 @@
-module github.com/goreleaser/fileglob
+module github.com/kumose-go/fileglob
 
 go 1.25
 

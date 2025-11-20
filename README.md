@@ -4,13 +4,13 @@
 <h1 align="center">fileglob</h1>
 <h3 align="center">A file globbing library.</h3>
 <p align="center">
-	<a href="https://github.com/goreleaser/fileglob/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/goreleaser/fileglob.svg?style=for-the-badge"></a>
+	<a href="https://github.com/kumose-go/fileglob/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/goreleaser/fileglob.svg?style=for-the-badge"></a>
 	<a href="/LICENSE.md"><img alt="Software License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge"></a>
-	<a href="https://github.com/goreleaser/fileglob/actions?workflow=build"><img alt="GitHub Actions" src="https://img.shields.io/github/actions/workflow/status/goreleaser/fileglob/build.yml?style=for-the-badge&branch=main"></a>
+	<a href="https://github.com/kumose-go/fileglob/actions?workflow=build"><img alt="GitHub Actions" src="https://img.shields.io/github/actions/workflow/status/goreleaser/fileglob/build.yml?style=for-the-badge&branch=main"></a>
 	<a href="https://codecov.io/gh/goreleaser/fileglob"><img alt="Codecov branch" src="https://img.shields.io/codecov/c/github/goreleaser/fileglob/master.svg?style=for-the-badge"></a>
-	<a href="https://goreportcard.com/report/github.com/goreleaser/fileglob"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/goreleaser/fileglob?style=for-the-badge"></a>
-	<a href="https://pkg.go.dev/github.com/goreleaser/fileglob"><img alt="Go Doc" src="https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge"></a>
-	<a href="https://github.com/goreleaser"><img alt="Powered By: GoReleaser" src="https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=for-the-badge"></a>
+	<a href="https://goreportcard.com/report/github.com/kumose-go/fileglob"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/kumose-go/fileglob?style=for-the-badge"></a>
+	<a href="https://pkg.go.dev/github.com/kumose-go/fileglob"><img alt="Go Doc" src="https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge"></a>
+	<a href="https://github.com/kumose"><img alt="Powered By: GoReleaser" src="https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=for-the-badge"></a>
 </p>
 
 ## What
@@ -35,6 +35,6 @@ a lexer, compiler, and all that, which seems like a better approach than most
 libraries do: regex.
 
 It doesn't have a `Walk` method though, and we needed it
-[in a couple of places](https://github.com/goreleaser/nfpm/issues/232).
+[in a couple of places](https://github.com/kumose/nfpm/issues/232).
 So we decided to implement it ourselves, a little bit based on how
 [mattn/go-zglob](http://github.com/mattn/go-zglob) works.
